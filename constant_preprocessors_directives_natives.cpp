@@ -110,7 +110,7 @@ int main()
 }*/
 
 /***************************************PREPROCESSORS**********************************************************************/
-/*#include <iostream>
+/*#include<iostream>
 using namespace std;
 
 //program for preprocessor or macros
@@ -129,17 +129,17 @@ int main()
     cout << pI << endl;
     cout << max(10, 12) << endl;
     cout << msg(hello) << endl;
-}
-* /
+}**/
+
 
     /*******************************************************NAMESPACES*******************************************************************/
 
-#include <iostream>
+/*#include<iostream>
 using namespace std;
 
-/*program for using namespace
+//program for using namespace
 
-*/
+
 namespace first
 {
     void fun()
@@ -159,4 +159,4 @@ int main()
 {
     second::fun();
     std::cout << "kkk" << endl;
-}
+}*/

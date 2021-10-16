@@ -23,6 +23,12 @@ void fun()
     t.a = 10;
     t.b = 10;
     t.c = 10;
+    cout<<t.a<<t.b<<t.c<<endl;
+}
+int main()
+{
+    fun();
+
 }*/
 
 /*#include <iostream>
@@ -85,7 +91,7 @@ int main()
     cout << test::count << endl;
 }*/
 
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 //program for static member
@@ -115,7 +121,7 @@ int main()
     test t1, t2;
     cout << t1.getcount() << endl;
     cout << test::getcount() << endl;
-}*/
+}
 
 /**********************************static member examples*************************************/
 
@@ -175,7 +181,7 @@ int main()
 }*/
 
 /**********************************************NESTED OR INNER CLASSES ***********************************************/
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 class outer
@@ -206,4 +212,4 @@ int main()
 {
     outer o;
     o.fun();
-}
+}*/

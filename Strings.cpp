@@ -103,11 +103,11 @@ using namespace std;
 int main()
 {
     char s[50] = "x=10;y=20;z=30";
-    char *token = strtok(s, "?");
+    char *token = strtok(s, ";");
     while (token != NULL)
     {
-        cout << token << endl;
-        token = strtok(NULL, "?");
+        cout << token <<endl;
+        token = strtok(NULL, ";");
     }
 
     return 0;
@@ -400,7 +400,7 @@ using namespace std;
     return 0;
 }*/
 
-#include <iostream>
+/*#include <iostream>
 #include <string>
 
 using namespace std;
@@ -411,4 +411,4 @@ int main()
     cout << s.find('@') << endl;
     cout << s.substr(0, 11) << endl;
     return 0;
-}
+}*/
