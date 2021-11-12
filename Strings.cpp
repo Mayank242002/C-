@@ -167,16 +167,15 @@ int main()
     return 0;
 }*/
 /******************************************** some more FUNCTIONS OF STRING CLASS ***************************************/
-
-/*#include <iostream>
+#include <iostream>
 #include <string>
 using namespace std;
 
 int main()
 {
-    string s = "programming";
+    string s = "qrogramming";
     char str[20];
-    string s2 = "programming";
+    string s2 = "rrogramming";
     //s.append("world");
     //s.insert(2, "okji", 3);
     //s.replace(2, 4, "ok");
@@ -191,10 +190,11 @@ int main()
     //cout << s.rfind('m') << endl;
     //cout << s.find_first_of('m', 7) << endl; //it starts looking for fisrt match from index 7
     //cout << s.find_last_of('m') << endl;
-    //cout << s.substr(2, 7) << endl;
+    cout<<s.find("am")<<endl;
+    cout << s.substr(2, 7) << endl;
     cout << s.compare(s2) << endl;
     return 0;
-}*/
+}
 
 /************************************ OPERATORS  FOR STRING CLASS **************************************************/
 /*
@@ -215,7 +215,7 @@ int main()
 {
     string s = "programming";
     string s2 = "programming";
-    //s.at(4) = 'm';
+    cout<<s.at(4)<<endl;
     s[4] = 'm';
     cout << s << endl;
     cout << s + " hello" << endl;
