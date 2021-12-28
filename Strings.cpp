@@ -179,7 +179,7 @@ int main()
     //s.append("world");
     //s.insert(2, "okji", 3);
     //s.replace(2, 4, "ok");
-    // s.erase();
+     //s.erase();
     //s.push_back('h');
     //s.pop_back();
     //s.swap(s2);

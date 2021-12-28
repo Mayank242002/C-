@@ -28,7 +28,7 @@ int main()
     cout << c3.real << "+i" << c3.img << endl;
 }*/
 
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 //program for operator overloading and friend functions
@@ -69,9 +69,9 @@ complex operator+(complex c1, complex c2)
 ostream &operator<<(ostream &o, complex &c)
 {
     return o << c.img << "+i" << c.img;
-}*/
+}
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 class Rational
@@ -125,4 +125,4 @@ int main()
     Rational r1(1, 3), r2(2, 2), r3;
     r3 = r1 + r2;
     cout << "Sum of " << r1 << " and " << r2 << " is " << r3 << endl;
-}
+}*/

@@ -109,7 +109,7 @@ int main()
     c->start();
 }*/
 
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 class car
@@ -141,11 +141,11 @@ int main()
     p->start();
     p = new swift;
     p->start();
-}*/
+}
 
 /**************************class having pure virtual function is called Abstract class*********************************************/
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 class shape
@@ -208,4 +208,4 @@ int main()
     cout << "perimeter of rectangle" << r.perimeter() << endl;
     cout << "area of circle" << c.area() << endl;
     cout << "perimeter of circle" << c.perimeter() << endl;
-}
+}*/
